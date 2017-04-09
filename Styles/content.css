@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:700italic);
+
+.hide {
+    visibility: hidden;
+}
+
+.cover {
+    background-color: black;
+    border-radius: 5px;
+    -webkit-user-select: none;
+}
+
+.viewed {
+    
+}
+
+.content-wrapper {
+    
+}
+
+.spoiler-text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.spoiler-text-span {
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Titillium Web', sans-serif;
+}

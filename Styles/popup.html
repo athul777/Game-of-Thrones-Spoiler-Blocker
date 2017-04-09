@@ -1,0 +1,38 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+
+<head>
+    <title>Game of Thrones Spoiler Blocker</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script type='text/javascript' src='../Scripts/jquerymin.js'></script>
+    <script type="text/javascript" src="../Scripts/popup.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <div class='main-text'>
+            Game of Thrones Spoiler Blocker
+        </div>
+        <div class='logo'>
+
+        </div>
+        <div class='buttons-area'>
+            <div class="onoffswitch">
+                <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                <label class="onoffswitch-label" for="myonoffswitch"></label>
+            </div>
+            <div class='block-spoilers-message'>
+                Turn spoiler blocker On/Off
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
